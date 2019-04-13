@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-
+import Tourlist from './components/TourList'
+import Navbar from "./components/Navbar/Navbar";
 import './App.scss';
+
 
 class App extends Component {
   render() {
-    return  <h1>Hello Sambulo Senda</h1>
+    return  (
+    <main>
+    <Navbar />
+    <Tourlist />
+    </main>
+    )
   }
 }
 
